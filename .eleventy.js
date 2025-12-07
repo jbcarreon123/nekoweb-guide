@@ -14,7 +14,7 @@ module.exports = function(eleventyConfig) {
   const md = markdownIt({
     html: true, // allows html in md files
     breaks: true, 
-    linkify: true, // turns pasted links into clickable links
+    linkify: false, // turns pasted links into clickable links
     typographer: true // changes stuff like -- to –
   }).use(markdownItAttrs); // adds markdown attributes plugin used below to adjust shit
 

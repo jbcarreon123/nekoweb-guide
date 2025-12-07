@@ -255,8 +255,14 @@ main {
   background-color:  #fff9e6;
   padding: 10px;
   color: var(--darkbrown);
+  height: calc(100dvh - var(--header-height));
+  overflow-y:auto;
 }
-
+pre {
+  display: block;
+  width: 100%;
+  white-space: pre-wrap;
+}
 .main-pad-toggle, .main-pad { padding: 10px 10px 10px 30px; }
 
 .mobileafternav { display: none;}
@@ -283,9 +289,21 @@ main {
     width: 25px;
     min-width: 25px; }
 
+    
   .main-pad { padding:10px;}
 }
 
+a {
+    color: var(--link);
+    font-weight: bold;
+}
+
+pre {
+  padding: 5px;
+  border-radius: 8px;
+  background: #ffecd6;
+  color: inherit;
+}
 
 @media only screen and (max-width: 500px) {   
 #togglenav { position: static;}
