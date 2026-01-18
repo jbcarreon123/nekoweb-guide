@@ -1,6 +1,6 @@
 ---
 title: getting around
-updated: 2025-11-16
+updated: 2026-01-17
 layout: /main.njk
 description: The Unofficial Nekoweb Documentaton
 ---
