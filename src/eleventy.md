@@ -5,7 +5,7 @@ layout: /main.njk
 description: The Unofficial Nekoweb Documentaton
 ---
 ## Getting started with Eleventy/11ty
-*Last updated: <span class="lastupd">{{page.date | formatDate}}</span>*
+*Last updated: <span class="lastupd">{{updated | formatDate}}</span>*
 *Author: <a class="lastupd" href="https://moosyu.github.io/">Moosyu</a>*
 
 ## Disclaimer

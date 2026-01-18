@@ -5,6 +5,6 @@ layout: /main.njk
 description: The Unofficial Nekoweb Documentaton
 ---
 ## CSS BASICS
-*Last updated: <span class="lastupd">{{page.date | formatDate}}</span>*
+*Last updated: <span class="lastupd">{{updated | formatDate}}</span>*
 
 <!-- difference between style="" internal and ezternal, css selectors and stuff -->
