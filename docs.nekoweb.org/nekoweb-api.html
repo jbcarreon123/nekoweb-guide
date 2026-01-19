@@ -30,7 +30,7 @@ steal anything >.<, I'd reccommend checking out my
 links page which links to a bunch of resources, as
 well as my resource website for some coding snippets!
                                                     -->
-  <title>nekoweb docs ♡ credits </title>
+  <title>nekoweb docs ♡ Nekoweb API (Library) </title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/css/main.css">
   <meta name="darkreader-lock" content="">
@@ -44,7 +44,7 @@ well as my resource website for some coding snippets!
   <meta name="theme-color" content="#ffbcb1">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Nekoweb Documentation">
-  <meta property="og:url" content="https://docs.nekoweb.org//credits">
+  <meta property="og:url" content="https://docs.nekoweb.org//nekoweb-api">
   <meta property="og:title" content="Nekoweb for Webdevs">
   <meta property="og:description" content="Learn HTML and CSS, Build a site, Share your creation.">
 
@@ -95,7 +95,6 @@ function myFunction() {
         <li><a href="/">Accessibility</a></li>
         <li><a href="/">Resposniveness</a></li>
         <li><a href="/eleventy">Eleventy</a></li>
-        <li><a href="/deployment">Deployment</a></li>
         <br>
         <li><a href="/credits">Credits</a></li>
         <li><a href="https://layercake.moe/">Creator</a></li>
@@ -105,13 +104,16 @@ function myFunction() {
   <div class="mobileafternav">.</div>
 </div>
 <main id="togglemain" class="main-pad">
-  <h2 id="credits" tabindex="-1">Credits</h2>
-<p><i>Last updated: <span class="lastupd">November 16, 2025</span></i></p>
-<p>Thank you to all the people who have helped work on this documentation or contributed knowledge on a topic to further share, below is a list of contributors as well links to their site!</p>
-<p>If you would like to contribute, feel free to contact me <a href="https://layercake.moe/contact">through my contact form</a> or ping me in the Nekoweb Discord to discuss, and we can work something out :3</p>
-<ul>
-<li><a href="https://moosyu.github.io/">Moosyu</a> - Wrote the <a href="/eleventy">eleventy guide</a></li>
-</ul>
+  <h2>Getting started with the Nekoweb API (Library)</h2>
+<p><i>Last updated: January 19, 2026</i><br>
+<i>Creator: <a href="https://jbc.lol">jb</a></i></p>
+<h2>Disclaimer</h2>
+<p>This assumes you know some basics of how to use a REST-based API and know how to authenticate with it. This also assumes you know how to use JavaScript and Node.js, and if you don't know it yet, I recommend learning some basic concepts of Node.js-based JavaScript files.</p>
+<p>You can also use other runtimes like <code>bun</code> or <code>deno</code> but for this guide, we will use <code>node</code> and <code>npm</code>, so you might need to check your runtime's documentation to see some differences. <b>A browser runtime (like Chrome or Firefox) will NOT work.</b></p>
+<p>In the deployment part, we will try to deploy the site you created on the <a href="/eleventy">Eleventy guide</a> as an example, but you can do this on all other SSGs/frameworks with some slight modification to the guide. If you're using a SSG/framework that's not using Node.js, you might want to create this on a subfolder so it would not mess with your project. See your framework's documentation for more.</p>
+<p>Most people doesn't need to interface directly with the Nekoweb API, and that's fine! You can use pre-built tools like <a href="https://deploy.nekoweb.org/">deploy2nekoweb</a>, <a href="https://codeberg.org/GiikiS2/NekoUp">NekoUp</a> or purpose-built tools like <a href="https://github.com/indiefellas/astro-adapter-nekoweb">astro-adapter-nekoweb</a> if you use Astro, which all of them interfaces to the Nekoweb API for you.</p>
+<h2>Overview</h2>
+<p>If you wanna do more advanced stuff in Nekoweb, chances are you wanna interface directly with the Nekoweb API for file uploading, file management, and more</p>
 
 </main>
 </div>
